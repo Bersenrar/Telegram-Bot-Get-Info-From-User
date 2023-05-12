@@ -119,7 +119,7 @@ async def get_last_info_send_message(message:types.Message, state:FSMContext):
 
 # @dp.message_handler(state=UserInput.ITERNAL_FROM_MSG)
 async def form_message(state:FSMContext):
-    admin_id = 406297219
+    admin_id = "USER ID WHICH GET RESULT MESSAGE"
     data = await state.get_data()
     name = data["user_name_surname"]
     inst_link = data["link_inst"]
